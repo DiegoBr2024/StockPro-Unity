@@ -1,0 +1,214 @@
+{
+    "Vendas": [
+        {
+            "NomeCliente": "jo",
+            "Data": "2026-10-20 22:51:43",
+            "ValorTotal": 10080.0,
+            "EstaPago": true,
+            "PrecisaEntregar": true,
+            "LocalizaçãoEntrega": "",
+            "Produtos": [
+                {
+                    "NomeProduto": "Mizu",
+                    "Quantidade": 210,
+                    "Valor": 10080.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "oinjo",
+            "Data": "2026-10-14 22:40:09",
+            "ValorTotal": 330.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "",
+            "Produtos": [
+                {
+                    "NomeProduto": "salsicha",
+                    "Quantidade": 15,
+                    "Valor": 330.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "yiuggog",
+            "Data": "2026-10-14 22:39:28",
+            "ValorTotal": 1176.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "",
+            "Produtos": [
+                {
+                    "NomeProduto": "poty",
+                    "Quantidade": 24,
+                    "Valor": 1176.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "jhonny",
+            "Data": "2026-10-12 12:47:37",
+            "ValorTotal": 4800.0,
+            "EstaPago": false,
+            "PrecisaEntregar": true,
+            "LocalizaçãoEntrega": "",
+            "Produtos": [
+                {
+                    "NomeProduto": "Mizu",
+                    "Quantidade": 100,
+                    "Valor": 4800.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "jhonny",
+            "Data": "2026-10-12 12:43:54",
+            "ValorTotal": 2000.0,
+            "EstaPago": true,
+            "PrecisaEntregar": true,
+            "LocalizaçãoEntrega": "São paulo",
+            "Produtos": [
+                {
+                    "NomeProduto": "Fogão",
+                    "Quantidade": 1,
+                    "Valor": 2000.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "aa",
+            "Data": "2026-10-12 12:04:45",
+            "ValorTotal": 20.5,
+            "EstaPago": true,
+            "PrecisaEntregar": true,
+            "LocalizaçãoEntrega": "",
+            "Produtos": [
+                {
+                    "NomeProduto": "Batata",
+                    "Quantidade": 1,
+                    "Valor": 20.5
+                }
+            ]
+        },
+        {
+            "NomeCliente": "jorgao",
+            "Data": "2026-10-12 11:22:05",
+            "ValorTotal": 8.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "play",
+            "Produtos": [
+                {
+                    "NomeProduto": "Banana",
+                    "Quantidade": 1,
+                    "Valor": 8.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "ss",
+            "Data": "2026-10-12 11:21:33",
+            "ValorTotal": 48.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "Jorgao",
+            "Produtos": [
+                {
+                    "NomeProduto": "Mizu",
+                    "Quantidade": 1,
+                    "Valor": 48.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "jojo",
+            "Data": "2026-10-12 11:16:31",
+            "ValorTotal": 20.5,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "a",
+            "Produtos": [
+                {
+                    "NomeProduto": "Batata",
+                    "Quantidade": 1,
+                    "Valor": 20.5
+                }
+            ]
+        },
+        {
+            "NomeCliente": "diego",
+            "Data": "2026-10-12 11:14:35",
+            "ValorTotal": 3655.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "",
+            "Produtos": [
+                {
+                    "NomeProduto": "Geladeira",
+                    "Quantidade": 1,
+                    "Valor": 3655.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "diego",
+            "Data": "2026-10-12 11:13:50",
+            "ValorTotal": 20.5,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "a",
+            "Produtos": [
+                {
+                    "NomeProduto": "Batata",
+                    "Quantidade": 1,
+                    "Valor": 20.5
+                }
+            ]
+        },
+        {
+            "NomeCliente": "isaias",
+            "Data": "2026-10-12 11:09:14",
+            "ValorTotal": 2100.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "p",
+            "Produtos": [
+                {
+                    "NomeProduto": "Iphone 12 ",
+                    "Quantidade": 1,
+                    "Valor": 2100.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "isaias",
+            "Data": "2026-10-12 11:08:26",
+            "ValorTotal": 98.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "po",
+            "Produtos": [
+                {
+                    "NomeProduto": "poty",
+                    "Quantidade": 2,
+                    "Valor": 98.0
+                }
+            ]
+        },
+        {
+            "NomeCliente": "Isaias",
+            "Data": "2026-10-12 11:07:55",
+            "ValorTotal": 48.0,
+            "EstaPago": false,
+            "PrecisaEntregar": false,
+            "LocalizaçãoEntrega": "mi",
+            "Produtos": [
+                {
+                    "NomeProduto": "Mizu",
+                    "Quantidade": 1,
+                    "Valor": 48.0
+                }
+            ]
+        }
+    ]
+}

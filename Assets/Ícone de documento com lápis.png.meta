@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: dee12ea9585cb9348aa4a40d1c11d3ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3097674039890957967
+    second: "\xCDcone de documento com l\xE1pis_0"
+  - first:
+      213: 8413119754918399661
+    second: "\xCDcone de documento com l\xE1pis_1"
+  - first:
+      213: -6297893227128277221
+    second: "\xCDcone de documento com l\xE1pis_2"
+  - first:
+      213: 2368619647670550443
+    second: "\xCDcone de documento com l\xE1pis_3"
+  - first:
+      213: -8655813047442443816
+    second: "\xCDcone de documento com l\xE1pis_4"
+  - first:
+      213: 6729910068424784129
+    second: "\xCDcone de documento com l\xE1pis_5"
+  - first:
+      213: -1912866411926028013
+    second: "\xCDcone de documento com l\xE1pis_6"
+  - first:
+      213: -9125907537705277683
+    second: "\xCDcone de documento com l\xE1pis_7"
+  - first:
+      213: 7378269264322596849
+    second: "\xCDcone de documento com l\xE1pis_8"
+  - first:
+      213: 2719679751412677214
+    second: "\xCDcone de documento com l\xE1pis_9"
+  - first:
+      213: 1526898054308914471
+    second: "\xCDcone de documento com l\xE1pis_10"
+  - first:
+      213: -7884891164329154911
+    second: "\xCDcone de documento com l\xE1pis_11"
+  - first:
+      213: 5462892093751402590
+    second: "\xCDcone de documento com l\xE1pis_12"
+  - first:
+      213: 5047022462635323657
+    second: "\xCDcone de documento com l\xE1pis_13"
+  - first:
+      213: 49209712768466799
+    second: "\xCDcone de documento com l\xE1pis_14"
+  - first:
+      213: -8838476738554098052
+    second: "\xCDcone de documento com l\xE1pis_15"
+  - first:
+      213: -7193624550829011508
+    second: "\xCDcone de documento com l\xE1pis_16"
+  - first:
+      213: -2340599682552270417
+    second: "\xCDcone de documento com l\xE1pis_17"
+  - first:
+      213: -5367585290043038659
+    second: "\xCDcone de documento com l\xE1pis_18"
+  - first:
+      213: 4357295125068009151
+    second: "\xCDcone de documento com l\xE1pis_19"
+  - first:
+      213: 7325670751153044062
+    second: "\xCDcone de documento com l\xE1pis_20"
+  - first:
+      213: 6716272404589538067
+    second: "\xCDcone de documento com l\xE1pis_21"
+  - first:
+      213: -1281819270703229377
+    second: "\xCDcone de documento com l\xE1pis_22"
+  - first:
+      213: -279481066885306999
+    second: "\xCDcone de documento com l\xE1pis_23"
+  - first:
+      213: -5993693684342803412
+    second: "\xCDcone de documento com l\xE1pis_24"
+  - first:
+      213: 7594615358877186668
+    second: "\xCDcone de documento com l\xE1pis_25"
+  - first:
+      213: -9013192459060777544
+    second: "\xCDcone de documento com l\xE1pis_26"
+  - first:
+      213: 1194552643650725936
+    second: "\xCDcone de documento com l\xE1pis_27"
+  - first:
+      213: -214217927591176655
+    second: "\xCDcone de documento com l\xE1pis_28"
+  - first:
+      213: -5286046541186712351
+    second: "\xCDcone de documento com l\xE1pis_29"
+  - first:
+      213: -7808623312959034747
+    second: "\xCDcone de documento com l\xE1pis_30"
+  - first:
+      213: -4151252791488995167
+    second: "\xCDcone de documento com l\xE1pis_31"
+  - first:
+      213: 1146444253357993760
+    second: "\xCDcone de documento com l\xE1pis_32"
+  - first:
+      213: 6163991276661974218
+    second: "\xCDcone de documento com l\xE1pis_33"
+  - first:
+      213: 7691728897644944036
+    second: "\xCDcone de documento com l\xE1pis_34"
+  - first:
+      213: 7945859649857246635
+    second: "\xCDcone de documento com l\xE1pis_35"
+  - first:
+      213: 298570581807599320
+    second: "\xCDcone de documento com l\xE1pis_36"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 1169
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8656a980262dfa20800000000000000
+      internalID: 3097674039890957967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_1"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1068
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae8bbca7d761c470800000000000000
+      internalID: 8413119754918399661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_2"
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 818
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b173ea34a736998a0800000000000000
+      internalID: -6297893227128277221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_3"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 771
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baff96325070fd020800000000000000
+      internalID: 2368619647670550443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_4"
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 793
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d17001d4ef50e780800000000000000
+      internalID: -8655813047442443816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_5"
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 604
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109b8c6fc81756d50800000000000000
+      internalID: 6729910068424784129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_6"
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 439
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3118f5612222475e0800000000000000
+      internalID: -1912866411926028013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_7"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07640212734a5180800000000000000
+      internalID: -9125907537705277683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_8"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 216
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff812dddc0e46660800000000000000
+      internalID: 7378269264322596849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_9"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 192
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a76cd035e3eb520800000000000000
+      internalID: 2719679751412677214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_10"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 182
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7256157c0b1a03510800000000000000
+      internalID: 1526898054308914471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_11"
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 176
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a66b81134d339290800000000000000
+      internalID: -7884891164329154911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_12"
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 192
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50a7566a6710db40800000000000000
+      internalID: 5462892093751402590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_13"
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 148
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901bbc28030aa0640800000000000000
+      internalID: 5047022462635323657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_14"
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 159
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f301919f3dea000800000000000000
+      internalID: 49209712768466799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_15"
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 151
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e0eea0c3c675580800000000000000
+      internalID: -8838476738554098052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_16"
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 144
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdce40a59c1b2c90800000000000000
+      internalID: -7193624550829011508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_17"
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa174106df4848fd0800000000000000
+      internalID: -2340599682552270417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_18"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 117
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d346f5d0e918285b0800000000000000
+      internalID: -5367585290043038659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_19"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe483f84d8387c30800000000000000
+      internalID: 4357295125068009151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_20"
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 109
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a32ff2cb20aa560800000000000000
+      internalID: 7325670751153044062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_21"
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 79
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b615aea2ef43d50800000000000000
+      internalID: 6716272404589538067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_22"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 108
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36db772a20163ee0800000000000000
+      internalID: -1281819270703229377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_23"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 71
+        width: 102
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985aade43751f1cf0800000000000000
+      internalID: -279481066885306999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_24"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 98
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24be3c995f12dca0800000000000000
+      internalID: -5993693684342803412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_25"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 93
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ab99f4e6e756960800000000000000
+      internalID: 7594615358877186668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_26"
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 93
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bde3716635bae280800000000000000
+      internalID: -9013192459060777544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_27"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 102
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0382e46ec47e39010800000000000000
+      internalID: 1194552643650725936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_28"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 87
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13658690ee1f60df0800000000000000
+      internalID: -214217927591176655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_29"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 95
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec326e6da034a6b0800000000000000
+      internalID: -5286046541186712351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_30"
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a2e3ef77232a390800000000000000
+      internalID: -7808623312959034747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_31"
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a023769499c366c0800000000000000
+      internalID: -4151252791488995167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_32"
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 77
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fe03c69fcf8ef00800000000000000
+      internalID: 1146444253357993760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_33"
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac42b0c6865ea8550800000000000000
+      internalID: 6163991276661974218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_34"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 63
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aadbbc0ea28eba60800000000000000
+      internalID: 7691728897644944036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_35"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5d9d8a04d554e60800000000000000
+      internalID: 7945859649857246635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xCDcone de documento com l\xE1pis_36"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 63
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de060dbc5cb42400800000000000000
+      internalID: 298570581807599320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\xCDcone de documento com l\xE1pis_0": 3097674039890957967
+      "\xCDcone de documento com l\xE1pis_1": 8413119754918399661
+      "\xCDcone de documento com l\xE1pis_10": 1526898054308914471
+      "\xCDcone de documento com l\xE1pis_11": -7884891164329154911
+      "\xCDcone de documento com l\xE1pis_12": 5462892093751402590
+      "\xCDcone de documento com l\xE1pis_13": 5047022462635323657
+      "\xCDcone de documento com l\xE1pis_14": 49209712768466799
+      "\xCDcone de documento com l\xE1pis_15": -8838476738554098052
+      "\xCDcone de documento com l\xE1pis_16": -7193624550829011508
+      "\xCDcone de documento com l\xE1pis_17": -2340599682552270417
+      "\xCDcone de documento com l\xE1pis_18": -5367585290043038659
+      "\xCDcone de documento com l\xE1pis_19": 4357295125068009151
+      "\xCDcone de documento com l\xE1pis_2": -6297893227128277221
+      "\xCDcone de documento com l\xE1pis_20": 7325670751153044062
+      "\xCDcone de documento com l\xE1pis_21": 6716272404589538067
+      "\xCDcone de documento com l\xE1pis_22": -1281819270703229377
+      "\xCDcone de documento com l\xE1pis_23": -279481066885306999
+      "\xCDcone de documento com l\xE1pis_24": -5993693684342803412
+      "\xCDcone de documento com l\xE1pis_25": 7594615358877186668
+      "\xCDcone de documento com l\xE1pis_26": -9013192459060777544
+      "\xCDcone de documento com l\xE1pis_27": 1194552643650725936
+      "\xCDcone de documento com l\xE1pis_28": -214217927591176655
+      "\xCDcone de documento com l\xE1pis_29": -5286046541186712351
+      "\xCDcone de documento com l\xE1pis_3": 2368619647670550443
+      "\xCDcone de documento com l\xE1pis_30": -7808623312959034747
+      "\xCDcone de documento com l\xE1pis_31": -4151252791488995167
+      "\xCDcone de documento com l\xE1pis_32": 1146444253357993760
+      "\xCDcone de documento com l\xE1pis_33": 6163991276661974218
+      "\xCDcone de documento com l\xE1pis_34": 7691728897644944036
+      "\xCDcone de documento com l\xE1pis_35": 7945859649857246635
+      "\xCDcone de documento com l\xE1pis_36": 298570581807599320
+      "\xCDcone de documento com l\xE1pis_4": -8655813047442443816
+      "\xCDcone de documento com l\xE1pis_5": 6729910068424784129
+      "\xCDcone de documento com l\xE1pis_6": -1912866411926028013
+      "\xCDcone de documento com l\xE1pis_7": -9125907537705277683
+      "\xCDcone de documento com l\xE1pis_8": 7378269264322596849
+      "\xCDcone de documento com l\xE1pis_9": 2719679751412677214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
