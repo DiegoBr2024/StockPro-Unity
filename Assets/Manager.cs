@@ -58,14 +58,14 @@ public class Manager : MonoBehaviour
         estoque.materiais.Add(new Materialestoque { Nome = "Tinta Acrílica Branca 18L", Quantidade = 18, PrecoDeCompra = 289.90f });
         estoque.materiais.Add(new Materialestoque { Nome = "Argamassa AC-II 20kg", Quantidade = 74, PrecoDeCompra = 34.90f });
         Salvar(estoque); */
-       Showitem(0);
+       Showitem(1);
        
 
 
     }
     [SerializeField] GameObject itemPrefab;
     [SerializeField] Canvas canva;
-    private Vector2 posicao = new Vector2(0, 100);
+    private Vector2 posicao = new Vector2(0, 132);
     public TMP_InputField[] itens;
 
     [SerializeField]
@@ -73,40 +73,42 @@ public class Manager : MonoBehaviour
 
     public void Showitem(int ValorDaPaginaDeExibicao)
     {
-        posicao = new Vector2(0, 100);
+        posicao = new Vector2(0, 132);
         estoque = Carregar();
         PageEstoque(estoque.materiais.Count);
-         // Calcula o índice inicial com base na página selecionada
-        int numerosDeexibicao = 0;// numero de rodadas maximas de exibição de itens na tela
-        if (estoque == null) { Debug.Log("Erro ao carregar o estoque.");ManagerUI.showErrorMessage("Erro ao carregar o estoque.\n Adicione Produtos!"); return; }
-        for (ValorDaPaginaDeExibicao = ValorDaPaginaDeExibicao*6; ValorDaPaginaDeExibicao < estoque.materiais.Count && numerosDeexibicao <= 5; ValorDaPaginaDeExibicao++)
+        int calculo = (ValorDaPaginaDeExibicao - 1) * 5;
+        int numerosDeexibicao = 0;
+        if (ValorDaPaginaDeExibicao < 1)
+            ValorDaPaginaDeExibicao = 1;
+        print(calculo);
+        for (int i = calculo; i < estoque.materiais.Count && numerosDeexibicao < 5; i++)
         {
             numerosDeexibicao++;
             GameObject intantiate = Instantiate(itemPrefab);
             intantiate.GetComponent<RectTransform>().anchoredPosition = posicao;
             intantiate.transform.SetParent( positionestoque.transform, false);
-            intantiate.name = estoque.materiais[ValorDaPaginaDeExibicao].Nome;
+            intantiate.name = estoque.materiais[i].Nome;
             //intantiate.GetComponent<editor>().editar(estoque.materiais.Find(M => M.Nome == estoque.materiais[i].Nome));
-            intantiate.transform.Find("Editor"  ).gameObject.GetComponent<editor>().editar(estoque.materiais.Find(M => M.Nome == estoque.materiais[ValorDaPaginaDeExibicao].Nome));
+            intantiate.transform.Find("Editor"  ).gameObject.GetComponent<editor>().editar(estoque.materiais.Find(M => M.Nome == estoque.materiais[i].Nome));
             intantiate.transform.SetSiblingIndex(0);
             GameObject nome = intantiate.transform.Find("name").gameObject;
            
-            nome.GetComponent<TextMeshProUGUI>().text = estoque.materiais[ValorDaPaginaDeExibicao].Nome;
+            nome.GetComponent<TextMeshProUGUI>().text = estoque.materiais[i].Nome;
             GameObject quantidade = intantiate.transform.Find("quantidade").gameObject;
             
-            quantidade.GetComponent<TextMeshProUGUI>().text = estoque.materiais[ValorDaPaginaDeExibicao].Quantidade.ToString();
+            quantidade.GetComponent<TextMeshProUGUI>().text = estoque.materiais[i].Quantidade.ToString();
             quantidade.GetComponent<TextMeshProUGUI>().color = GetColorForIndex(int.Parse(quantidade.GetComponent<TextMeshProUGUI>().text));
             GameObject preco = intantiate.transform.Find("preco").gameObject;
-            preco.GetComponent<TextMeshProUGUI>().text = estoque.materiais[ValorDaPaginaDeExibicao].PrecoDeCompra.ToString("F2");
+            preco.GetComponent<TextMeshProUGUI>().text = estoque.materiais[i].PrecoDeCompra.ToString("F2");
             //color(intantiate.transform.Find("image").gameObject);
             posicao.y -= DistanceItemObject;
         }
     }
-    private Vector3 pagePositioselector = new Vector3(-660,-180, 0);
+    private Vector3 pagePositioselector = new Vector3(-660,-210, 0);
     public void PageEstoque(int numeropages)
     {
-        int totalPages = Mathf.CeilToInt(numeropages / 6f);
-        pagePositioselector = new Vector3(-660, -180, 0);
+        int totalPages = Mathf.CeilToInt(numeropages / 5f);
+        pagePositioselector = new Vector3(-660, -210, 0);
         var transform = seletorpage.GetComponentInChildren<RectTransform>();
         foreach (Transform child in transform)
         {
@@ -116,15 +118,18 @@ public class Manager : MonoBehaviour
         }
         for (int i = 0; i < totalPages; i++)
         {
+            int pagina = i + 1;
+
             GameObject intantiate = Instantiate(page);
             intantiate.transform.SetParent(seletorpage.transform, false);
             intantiate.GetComponent<RectTransform>().anchoredPosition = pagePositioselector;
-            intantiate.GetComponentInChildren<TextMeshProUGUI>().text = (i + 1).ToString();
-            intantiate.GetComponent<Button>().onClick.AddListener(() => Reloadestoque(i));
-            intantiate.name = "Page" + (i + 1).ToString();
-            pagePositioselector.x += 55;
-        }
+            intantiate.GetComponentInChildren<TextMeshProUGUI>().text =
+                pagina.ToString();
 
+            intantiate.GetComponent<Button>()
+                .onClick.AddListener(() => Reloadestoque(pagina));
+            pagePositioselector.x += 80;
+        }
 
 
 
@@ -140,7 +145,7 @@ public class Manager : MonoBehaviour
             estoque.materiais.Remove(item);
 
             DeletaAll();
-            Reloadestoque(0);
+            Reloadestoque(1);
         }
 
 
@@ -265,7 +270,7 @@ public class Manager : MonoBehaviour
             {
                 estoque.materiais[i] = materialestoqueatual;
                 DeletaAll();
-                Reloadestoque(0);
+                Reloadestoque(1);
                ManagerUI.showeditor();
                 break;
             }
@@ -283,7 +288,7 @@ public class Manager : MonoBehaviour
             {
                 estoque.materiais[i] = materialestoqueatual;
                 DeletaAll();
-                Reloadestoque(0);
+                Reloadestoque(1);
                 ManagerUI.showeditor();
                 break;
             }

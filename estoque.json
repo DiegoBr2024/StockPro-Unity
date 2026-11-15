@@ -119,12 +119,6 @@
             "Quantidade": 74,
             "PrecoDeCompra": 34.900001525878909,
             "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "arroz",
-            "Quantidade": 1000,
-            "PrecoDeCompra": 2.5,
-            "PrecoDeVenda": 0.0
         }
     ]
 }

@@ -207,7 +207,7 @@ public class ManagerUI : MonoBehaviour
     {
         //click();
         GetComponent<Adicionar>().Obterdados();
-        manager.GetComponent<Manager>().Reloadestoque(0);  
+        manager.GetComponent<Manager>().Reloadestoque(1);  
 
 
     }
@@ -642,7 +642,7 @@ public class ManagerUI : MonoBehaviour
         File.WriteAllText(caminho, json);
         ActiveEstoque();
         CarregamendodeProdutos();
-        manager.GetComponent<Manager>().Reloadestoque(0);
+        manager.GetComponent<Manager>().Reloadestoque(1);
 
 
 
