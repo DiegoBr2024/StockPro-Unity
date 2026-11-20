@@ -78,6 +78,8 @@ public class Adicionar : MonoBehaviour
             materialestoque.Nome = nome.text.ToString();
             materialestoque.Quantidade = int.Parse(quantidade.text);
             materialestoque.PrecoDeCompra = float.Parse(precoDeCompra.text);
+            materialestoque.PrecoDeVenda = float.Parse(precoDeVenda.text);
+
         }
         catch (System.Exception e)
         {

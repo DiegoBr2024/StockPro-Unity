@@ -1,124 +1,22 @@
 {
     "materiais": [
         {
-            "Nome": "Cimento CP II 50kg",
-            "Quantidade": 120,
-            "PrecoDeCompra": 39.900001525878909,
-            "PrecoDeVenda": 0.0
+            "Nome": "Feijão",
+            "Quantidade": 20,
+            "PrecoDeCompra": 10.0,
+            "PrecoDeVenda": 20.0
         },
         {
-            "Nome": "Areia Média (m³)",
-            "Quantidade": 35,
-            "PrecoDeCompra": 145.0,
-            "PrecoDeVenda": 0.0
+            "Nome": "arroz 15kg",
+            "Quantidade": 22,
+            "PrecoDeCompra": 12.0,
+            "PrecoDeVenda": 25.0
         },
         {
-            "Nome": "Brita Nº 1 (m³)",
-            "Quantidade": 28,
-            "PrecoDeCompra": 169.89999389648438,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Tijolo Cerâmico",
-            "Quantidade": 3500,
+            "Nome": "pipoca",
+            "Quantidade": 20,
             "PrecoDeCompra": 1.2000000476837159,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Bloco de Concreto 14x19x39",
-            "Quantidade": 850,
-            "PrecoDeCompra": 6.900000095367432,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Vergalhão CA-50 10mm",
-            "Quantidade": 140,
-            "PrecoDeCompra": 58.900001525878909,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Tubo PVC 100mm 6m",
-            "Quantidade": 42,
-            "PrecoDeCompra": 119.9000015258789,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Joelho PVC 90° 100mm",
-            "Quantidade": 95,
-            "PrecoDeCompra": 14.899999618530274,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Tinta Acrílica Branca 18L",
-            "Quantidade": 18,
-            "PrecoDeCompra": 289.8999938964844,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Argamassa AC-II 20kg",
-            "Quantidade": 74,
-            "PrecoDeCompra": 34.900001525878909,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Cimento CP II 50kg",
-            "Quantidade": 120,
-            "PrecoDeCompra": 39.900001525878909,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Areia Média (m³)",
-            "Quantidade": 35,
-            "PrecoDeCompra": 145.0,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Brita Nº 1 (m³)",
-            "Quantidade": 28,
-            "PrecoDeCompra": 169.89999389648438,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Tijolo Cerâmico",
-            "Quantidade": 3500,
-            "PrecoDeCompra": 1.2000000476837159,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Bloco de Concreto 14x19x39",
-            "Quantidade": 850,
-            "PrecoDeCompra": 6.900000095367432,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Vergalhão CA-50 10mm",
-            "Quantidade": 140,
-            "PrecoDeCompra": 58.900001525878909,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Tubo PVC 100mm 6m",
-            "Quantidade": 42,
-            "PrecoDeCompra": 119.9000015258789,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Joelho PVC 90° 100mm",
-            "Quantidade": 95,
-            "PrecoDeCompra": 14.899999618530274,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Tinta Acrílica Branca 18L",
-            "Quantidade": 18,
-            "PrecoDeCompra": 289.8999938964844,
-            "PrecoDeVenda": 0.0
-        },
-        {
-            "Nome": "Argamassa AC-II 20kg",
-            "Quantidade": 74,
-            "PrecoDeCompra": 34.900001525878909,
-            "PrecoDeVenda": 0.0
+            "PrecoDeVenda": 3.0
         }
     ]
 }

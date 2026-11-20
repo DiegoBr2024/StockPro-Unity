@@ -71,10 +71,35 @@ public class Manager : MonoBehaviour
     [SerializeField]
     private int DistanceItemObject;
 
+    [SerializeField]
+    TextMeshProUGUI QuantidadeDeProdutos;
+    [SerializeField]
+    TextMeshProUGUI QuantidadeDetotalProdutos ;
+    [SerializeField]
+    TextMeshProUGUI ValorEmEstoque  ;
+
+    [SerializeField]
+    GameObject EditorScript;
+
     public void Showitem(int ValorDaPaginaDeExibicao)
     {
+        int QuantidadeDetotalProdutos = 0;
+        float ValorEmEstoque = 0;
+
+
         posicao = new Vector2(0, 132);
         estoque = Carregar();
+        this.QuantidadeDeProdutos.text = estoque.materiais.Count.ToString();
+        foreach (var produto in estoque.materiais)
+        {
+            QuantidadeDetotalProdutos += produto.Quantidade;
+            ValorEmEstoque += produto.PrecoDeVenda * produto.Quantidade;
+            print($"Produto: {produto.Nome}, Quantidade: {produto.Quantidade}, Preço de Compra: {produto.PrecoDeCompra}, Preço de Venda: {produto.PrecoDeVenda}");
+        }
+        this.QuantidadeDetotalProdutos.text = QuantidadeDetotalProdutos.ToString();
+        this.ValorEmEstoque.text = ValorEmEstoque.ToString("F2");
+        
+
         PageEstoque(estoque.materiais.Count);
         int calculo = (ValorDaPaginaDeExibicao - 1) * 5;
         int numerosDeexibicao = 0;
@@ -89,7 +114,7 @@ public class Manager : MonoBehaviour
             intantiate.transform.SetParent( positionestoque.transform, false);
             intantiate.name = estoque.materiais[i].Nome;
             //intantiate.GetComponent<editor>().editar(estoque.materiais.Find(M => M.Nome == estoque.materiais[i].Nome));
-            intantiate.transform.Find("Editor"  ).gameObject.GetComponent<editor>().editar(estoque.materiais.Find(M => M.Nome == estoque.materiais[i].Nome));
+            intantiate.transform.Find("EditorScript"  ).gameObject.GetComponent<editor>().editar(estoque.materiais.Find(M => M.Nome == estoque.materiais[i].Nome));
             intantiate.transform.SetSiblingIndex(0);
             GameObject nome = intantiate.transform.Find("name").gameObject;
            
@@ -99,7 +124,7 @@ public class Manager : MonoBehaviour
             quantidade.GetComponent<TextMeshProUGUI>().text = estoque.materiais[i].Quantidade.ToString();
             quantidade.GetComponent<TextMeshProUGUI>().color = GetColorForIndex(int.Parse(quantidade.GetComponent<TextMeshProUGUI>().text));
             GameObject preco = intantiate.transform.Find("preco").gameObject;
-            preco.GetComponent<TextMeshProUGUI>().text = estoque.materiais[i].PrecoDeCompra.ToString("F2");
+            preco.GetComponent<TextMeshProUGUI>().text = estoque.materiais[i].PrecoDeVenda.ToString("F2");
             //color(intantiate.transform.Find("image").gameObject);
             posicao.y -= DistanceItemObject;
         }
@@ -203,9 +228,16 @@ public class Manager : MonoBehaviour
     }
     static string caminho;
 
-    
-
     public static void Salvar(Estoque estoque)
+    {
+        string json = JsonUtility.ToJson(estoque, true);
+
+        File.WriteAllText(caminho, json);
+
+        Debug.Log("Salvo em: " + caminho);
+    }
+
+    /*public static void Salvar(Estoque estoque)
     {
         
             string jsonn = File.ReadAllText(caminho);
@@ -226,7 +258,7 @@ public class Manager : MonoBehaviour
         Debug.Log("Salvo em: " + caminho);
         
         
-    }
+    }*/
 
     public static Estoque Carregar()
     {
@@ -303,7 +335,24 @@ public class Manager : MonoBehaviour
         File.WriteAllText(caminho, jsonsaver);
 
     }
+    public void AtualizarMaterial(Materialestoque antigo, Materialestoque novo)
+    {
+        estoque = Carregar();
 
+        for (int i = 0; i < estoque.materiais.Count; i++)
+        {
+            if (estoque.materiais[i].Nome == antigo.Nome)
+            {
+                estoque.materiais[i] = novo;
+                break;
+            }
+        }
+
+        string json = JsonUtility.ToJson(estoque, true);
+        File.WriteAllText(caminho, json);
+
+        Reloadestoque(1);
+    }
     public void Reloadestoque(int seletor)
     {
         print("Reloading estoque...");
